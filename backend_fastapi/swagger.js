@@ -4,9 +4,9 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'My Express API',
+      title: 'Music Streamer API',
       version: '1.0.0',
-      description: 'A simple Express API documented with Swagger',
+      description: 'Express API for auth, playlists, stats, and Audius proxy',
     }
   },
   apis: ['./src/routes/*.js'], // Path to the API docs
